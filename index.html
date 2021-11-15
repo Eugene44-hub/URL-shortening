@@ -24,17 +24,17 @@
                 <ul class="navbar-nav" id="main-nav">
                     <li class="nav-item p-3 p-md-0">
                         <div class="nav-item mx-2">
-                           <a href="#">Features</a>
+                            Features
                         </div>
                     </li>
                     <li class="nav-item p-3 p-md-0">
                         <div class="nav-item mx-2">
-                            <a href="#">Pricing</a>
+                            Pricing
                         </div>
                     </li>
                     <li class="nav-item p-3 p-md-0">
                         <div class="nav-item mx-2">
-                            <a href="#">Resources</a>
+                            Resources
                         </div>
 
                     </li>
@@ -43,11 +43,11 @@
 
                 <ul class="navbar-nav ms-auto ">
                     <li class="nav-item p-3 p-md-0">
-                        <div class="btn rounded-pill nav-item" id="login"><a href="#">Login</a></div>
+                        <div class="btn rounded-pill nav-item" id="login">Login</div>
                     </li>
 
                     <li class="nav-item p-3 mb-5 p-md-0 mb-md-0">
-                        <div class="btn btn-success rounded-pill nav-item" id="sign"><a href="#">Sign Up</a></div>
+                        <div class="btn btn-success rounded-pill form-control p-3 p-sm-2 nav-item" id="sign">Sign Up</div>
                     </li>
                 </ul>
 
@@ -59,11 +59,11 @@
     <!-- more than -->
     <section>
         <div class="container">
-            <div class="d-flex justify-content-between align-items-center text-center" style="flex-wrap: wrap;">
-                <div class="col-md-5 col-10 pt-5 pt-md-0 m-auto" id="buildText">
+            <div class="d-flex justify-content-between align-items-center" style="flex-wrap: wrap;">
+                <div class="col-md-5 col-10 pt-5 pt-md-0 m-auto text-center text-md-start" id="buildText">
                     <h1 style="font-size: 40px; font-weight: bold;">More than Just Shorter links</h1>
                     <p class="">Build your brand with recognition and get detailed insight on how are performing</p>
-                    <a href="#"><button class="btn btn-primary rounded-pill" id="get-start">Get Started</button></a>
+                    <button class="btn btn-primary btn-lg rounded-pill" id="get-start">Get Started</button>
                 </div>
                 <div class="col-md-5 col-10 m-auto  " id="illustration-image">
                     <img class="img-fluid" src="images/illustration-working.svg" alt="">
@@ -75,15 +75,14 @@
     <section class=" pt-5">
         <div class="container">
             <div class=" p-5" id="input-field">
-                <div class="input-group">
-                    <input type="text" class="form-control rounded" placeholder="Shorten a link here">
-                    <button class="btn btn-danger ms-5 rounded" id="shorten">Shorten it</button>
+                <div class=" d-flex input-parent m-auto" style="flex-wrap: wrap;">
+                    <input type="text" class="p-1 rounded col-md-9 col-12" id="input-link" placeholder="Shorten a link here">
+                    <button class="btn btn-danger mt-2 mt-md-0 ms-md-5 ms-0 rounded col-md-2 col-12 " id="shorten">Shorten it</button>
                 </div>
-
+                <div id="error"></div>
             </div>
         </div>
     </section>
-
     <!-- Section STATISTICS -->
     <section class="statistics">
         <div class="headings">
@@ -150,18 +149,19 @@
                     <h3 class="link"><a href="#">Careers</a></h3>
                     <h3 class="link"><a href="#">Contact</a></h3>
                 </div>
-               
+
             </div>
             <div class="icons">
                 <img src="images/icon-facebook.svg" class="icon">
                 <img src="images/icon-twitter.svg" class="icon">
                 <img src="images/icon-pinterest.svg" class="icon">
                 <img src="images/icon-instagram.svg" class="icon">
-        </div>  
+            </div>
         </footer>
-        
+
     </section>
 </body>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js " integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p " crossorigin="anonymous "></script>
+<script src="app.js"></script>
 
 </html>
