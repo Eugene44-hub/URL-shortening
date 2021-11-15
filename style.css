@@ -1,3 +1,4 @@
+/*CSS*/
 *{
     margin: 0px;
     padding: 0px;
@@ -5,11 +6,14 @@
 
 #sign,
 #get-start,
-#shorten {
+#shorten,
+#copy {
     background-color: hsl(180, 66%, 49%);
     border: none;
 }
-
+.hidden{
+    display: none;
+}
 #input-field {
     background-image: url("images/bg-shorten-desktop.svg"), linear-gradient( hsl(257, 27%, 26%), hsl(257, 27%, 26%));
     background-repeat: no-repeat;
@@ -93,6 +97,7 @@ h3{
     background-color: #eee; 
     padding: 6%;
     padding-top: 10%;
+    margin-top: 30px;
 }
 .headings{
     text-align: center;
