@@ -1,4 +1,4 @@
-const inputField = document.querySelector('#input')
+const inputField = document.querySelector('#input-link')
 const inputGroup = document.querySelector('.input-parent')
 
 inputGroup.addEventListener('click', e => {
