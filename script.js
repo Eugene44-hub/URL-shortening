@@ -1,3 +1,4 @@
+
 const input = document.querySelector('#input');
 const error = document.querySelector('#err');
 const btn = document.querySelector('#shorten');
