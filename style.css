@@ -2,6 +2,7 @@
 *{
     margin: 0px;
     padding: 0px;
+    /*background-color: #eee;*/
 }
 
 #sign,
@@ -11,6 +12,10 @@
     background-color: hsl(180, 66%, 49%);
     border: none;
 }
+#input{
+    background-color: white;
+}
+
 .hidden{
     display: none;
 }
@@ -44,7 +49,7 @@ a:hover{
     background-repeat: no-repeat;
     background-size: cover;
     text-align: center;
-    padding: 6%;
+    padding: 7%;
 }
 .boost-heading{
     color: white;
@@ -97,7 +102,6 @@ h3{
     background-color: #eee; 
     padding: 6%;
     padding-top: 10%;
-    margin-top: 30px;
 }
 .headings{
     text-align: center;
@@ -143,6 +147,30 @@ h3{
     background-color: hsl(180, 66%, 49%);
     margin-top: 20%;
 }
+
+.list{
+    color: black;
+    background-color: #eee;
+    padding-top: 12%;
+}
+.lnk{
+   display: flex;
+   background-color: white;
+   border-radius: 10px;
+   font-weight: bold;
+   margin-top: 10px;
+   justify-content: space-between;
+}
+.shorted{
+    color: hsl(180, 66%, 49%);   
+}
+.original{
+    /*flex-wrap: wrap;*/
+}
+#err{
+    color: hsl(0, 87%, 67%);
+    font-style: italic;
+}
 @media screen and (max-width:768px) {
     #illustration-image {
         order: 1;
@@ -168,7 +196,7 @@ h3{
     }
 
     .boost{
-        padding: 40px;
+        padding: 17%;
         margin: 0px;
     }
     .boost h1{
@@ -200,7 +228,7 @@ h3{
         margin: 5px;
     }
     .statistics{
-        padding-top: 45%;
+        padding-top: 30%;
     }
     .items{
         display: block;
@@ -229,4 +257,19 @@ h3{
         background-color: hsl(180, 66%, 49%);
         margin: auto;
     }
+
+    .list{
+        padding-top: 10%;
+        height: 400px;
+        overflow: scroll;
+        margin-top: 70px;
+    }
+    .lnk{
+        display: block;
+       font-weight: normal;
+       margin-top: 5px;
+       text-align: center;
+    
+    }
 }
+
