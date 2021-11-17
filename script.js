@@ -1,4 +1,3 @@
-
 const input = document.querySelector('#input');
 const error = document.querySelector('#err');
 const btn = document.querySelector('#shorten');
@@ -51,10 +50,13 @@ btn.addEventListener('click', function() {
                     list.classList.remove('hidden');
                     for (let i in links) {
                         const markup = `    
-                        <div class="p-3 lnk">
+                        <div class="p-3 d-md-flex justify-content-between bg-light my-3 text-center">
                             <div class="original">${ol[i]}</div>
+                            <div class='d-md-flex '>
                             <div class="shorted">${links[i]}</div>
                             <button class="btn btn-danger rounded ms-md-4" id="copy" data-copy-to-clipboard ="${links[i]}">Copy</button>
+                            </div>
+                          
                          </div>
                         `;
 
