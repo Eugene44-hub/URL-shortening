@@ -163,6 +163,13 @@ h3{
 .shorted{
     color: hsl(180, 66%, 49%);   
 }
+.original{
+    /*flex-wrap: wrap;*/
+}
+#err{
+    color: hsl(0, 87%, 67%);
+    font-style: italic;
+}
 @media screen and (max-width:768px) {
     #illustration-image {
         order: 1;
@@ -220,7 +227,7 @@ h3{
         margin: 5px;
     }
     .statistics{
-        padding-top: 45%;
+        padding-top: 30%;
     }
     .items{
         display: block;
@@ -248,5 +255,18 @@ h3{
         width: 10px;
         background-color: hsl(180, 66%, 49%);
         margin: auto;
+    }
+    .list{
+        padding-top: 10%;
+        height: 400px;
+        overflow: scroll;
+        margin-top: 70px;
+    }
+    .lnk{
+        display: block;
+       font-weight: normal;
+       margin-top: 5px;
+       text-align: center;
+    
     }
 }
